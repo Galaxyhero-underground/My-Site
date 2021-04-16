@@ -1,0 +1,167 @@
+
+body {
+  margin:0;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+}
+/**The default serif is the Times font***/
+/**The default sans-serif is the Arial**/
+
+
+h1 {
+  margin:50px auto 0 auto;
+  color:#66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size:5.625rem;
+/*****100% font size is 16px and is 1em,90px is 562.5% and 5.625em and 5.625 rem. em and rem and % are dynamic ways to specify the font size. static font size does not inherit from parent font size****/
+/**** rem does  not inherit, em and % inherit from parent font size***/
+}
+
+/****There are two methods to center the element, the first one is use text-align in the body(container), ***/
+/***the second one is use margin:0 auto 0 auto directly under the elment, in this case h1, thus the element will be horizontally centerred, this method works even the width of h1 is not full width of the screen*****/
+
+h2 {
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+h3 {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+hr {
+    border-style:None;
+    border-top-style:dotted;
+    border-color:#EAF6F6;
+    border-width:5px;
+    height:0;
+    width:5%;
+    }
+/********************Class selectors************************/
+
+.copyright  {
+  color:#EAF6F6
+}
+
+.bottom-container  {
+  background-color: #66BFBF
+}
+.bottom-cloud {
+  position:absolute;
+  Left:300px;
+  bottom:300px;
+} /***In this case, the top-cloud and bottom-cloud are contained inside the top-container. The position of the top container has to be set to be relative if the items inside it needs to be positioned relatively**/
+
+.footer-link {
+  color:#11999E;
+}
+
+.first-skill-img {
+  width:25%;
+}
+.skill-row {
+  text-align:left;
+  width:50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  }
+.top-cloud {
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.top-container {
+  line-height: 2;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position:relative;
+    padding-top:100px;
+}
+
+
+.pro {
+   text-decoration: underline;
+}
+
+.profile-img {
+  width:200px;
+  height:200px;
+}
+
+.second-skill-img{
+  width:200px;
+  height:200px;
+  float:right;
+  margin-left:30px;
+}
+
+
+.first-skill-img {
+  width:200px;
+  height:200px;
+    float:left;
+  margin-right:30px;
+}
+.Self-introduction {
+  color: #40514E;
+  }
+
+
+/***.code-skill-description-1 {
+  clear:left;
+  /**This prevents the texts wrapping around the images at the left**/
+/***  }
+.code-skill-description-2 {
+    clear:right;
+    /**This prevents the texts wrapping around the images at the left**/
+/**    }**/
+
+/**contact-me button was created using the cssbuttoncreator.com*/
+.contact-me {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 50px;
+   line-height: 50px;
+   color: #11999E;
+   font-family: Arial;
+   width: 200px;
+   font-size: 24px;
+   font-weight: 700;
+   padding: 0;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-me:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
